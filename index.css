@@ -1,0 +1,15 @@
+<style>
+    body {
+        background-color: bisque;
+    }
+
+    #first{
+        background-color: aqua;
+        color: red;
+    }
+
+    .red {
+        color: antiquewhite;
+        background-color: brown;
+    }
+</style> 

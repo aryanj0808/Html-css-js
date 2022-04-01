@@ -1,0 +1,14 @@
+
+    .container {
+        width: 540px;
+        height: 1840px;
+        border: 2px solid black;
+        /* background-image: url("images/Doremon.jpg");
+        background-repeat: no-repeat;
+        background-position: top, left;
+        background-attachment: fixed; */
+
+        background: red url('images/Doremon.jpg') no-repeat   fixed       left center;
+    /* background: color             url             repeat    attachment      Position    */
+
+    }

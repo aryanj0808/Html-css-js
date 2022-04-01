@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 75px;
+    border: 3px solid red;
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+}
+
+div.main {
+    width: 150px;
+    background: red;
+}
+
+
+.image{
+    height: 350px;
+    width: 350px;
+    border: 3px solid black;
+    color: white;
+    background:red  url('images/Doremon.jpg') no-repeat fixed left center;
+    background-size: 350px 350px;
+}
