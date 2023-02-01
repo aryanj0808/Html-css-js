@@ -5,8 +5,10 @@ console.log(mix);
 
 console.log(marks.indexOf(25));
 marks.push(67);
-marks.pop();
 
-marks.reverse(67);
+console.log(marks);
+marks.pop();
+marks.reverse();
+
 
 console.log(marks);

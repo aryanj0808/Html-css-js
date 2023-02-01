@@ -1,7 +1,7 @@
-var name = "aryan";
+var fname = "aryan";
 var sname;
 sname = "jadhav";
-console.log(name, sname);
+console.log(fname, sname);
 const a = 8;
 // a = 10;
 // We cannot change values of 'const'
@@ -13,7 +13,7 @@ console.log(a + b);
   // 'let' is datatype is limited for particular section
   // they are not globle varibles
 }
-console.log(name);
+console.log(fname);
 const arr = [1, 2, 3, 4, 5];
 arr.push(6);
 console.log(arr);
