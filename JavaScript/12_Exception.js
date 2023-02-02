@@ -1,15 +1,14 @@
 function divideByZero(num){
 
     try{
-        if(num=0) throw "not a number";
-        Console.log(num=50/num);
-        return;
+        if(num==0) throw "Cant divide by zero";
+        console.log(num)
     }
     catch(err){
-        console.warn("we cannot divide number by zero");
+        console.log(err)
     }
 
 }
 
 divideByZero(0);
-divideByZero(58);
+divideByZero(560);
