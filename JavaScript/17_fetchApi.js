@@ -1,5 +1,3 @@
-request("16_demoText.txt");
-
 async function request(file){
 
     let myObj =await fetch(file);
