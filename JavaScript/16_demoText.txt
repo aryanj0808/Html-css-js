@@ -1,0 +1,9 @@
+Access Across Domains
+For security reasons, modern browsers do not allow access across domains.
+
+This means that both the web page and the XML file it tries to load, must be located on the same server.
+
+The examples on W3Schools all open XML files located on the W3Schools domain.
+
+If you want to use the example above on one of your own web pages, the XML files you load must be located on your own server.
+
