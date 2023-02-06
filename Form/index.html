@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <label for="fName">Fist Name</label>
+        <input type="text" placeholder="abc" id="fName" name="fName"/>
+        <label for="lName">Last Name</label>
+        <input type="text" placeholder="xyz" id="lName" name="lName"/>
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="email" placeholder="youremail@gmail.com" id="email" name="email"/>
+
+        <br><br>
+
+        <label for="phone">Mobile number</label>
+        <input type="number" placeholder="1234567890" id="phone" name="phone"/>
+
+        <br><br>
+
+        <label for="collage">Collage Name</label>
+        <input type="text" placeholder="Mumbai University" id="collage" name="collage"/>
+
+        <br><br>
+
+        <h3>Known Language</h3>
+        <input type="checkbox" id="Lang1" name="Lang1" value="Marathi"/>
+        <label for="Lang1">Marathi</label><br>
+        <input type="checkbox" id="Lang2" name="Lang2" value="English"/>
+        <label for="Lang2">English</label><br>
+        <input type="checkbox" id="Lang3" name="Lang3" value="Hindi"/>
+        <label for="Lang3">Hindi</label><br>
+        <input type="checkbox" id="Lang3" name="Lang3" value="Telgu"/>
+        <label for="Lang4">Telgu</label><br>
+       
+
+        <br><br>
+
+        <h3>Known Programming Language</h3>
+        <input type="checkbox" id="pLang1" name="pLang1" value="C++">
+        <label for="pLang1">C/C++</label><br>
+        <input type="checkbox" id="pLang2" name="pLang2" value="C#">
+        <label for="pLang2">C#</label><br>
+        <input type="checkbox" id="pLang3" name="pLang3" value="Java">
+        <label for="pLang3">Java</label><br>
+        <input type="checkbox" id="pLang4" name="pLang4" value="Python">
+        <label for="pLang1">Python</label><br>
+
+        <label for="domain">Choose any one Domain</label>
+
+        <select name="domain" id="domain">
+            <option value="Front_End_Developer" onclick="click()">Front End Developer</option>
+            <option value="Back_End_Developer">Back End Developer</option>
+            <option value="Full_Stack_Developer">Full Stack Developer</option>
+            <option value="Machine_Learning">Machine Learning</option>
+            <option value="Artificial_Intelligence">Artificial Intelligence</option>
+            <option value="Block_Chain">Block Chain</option>
+        </select>
+
+        <br><br>
+        
+        <button type="button" onclick="clickcs()">Submit</button>
+    </form>
+    
+</body>
+<source src="./main.js">
+</html>
